@@ -28,7 +28,7 @@ public class HelloWorld
        }
        
         Console.WriteLine($"random number is {rand_num}");
-                Console.WriteLine($"Try {user_tries}");
+                Console.WriteLine($"Try {user_tries}"); 
         }
         
         
