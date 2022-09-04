@@ -1,5 +1,3 @@
-
-
 using System;
 using System.Collections.Generic;
 public class HelloWorld
@@ -10,7 +8,7 @@ public class HelloWorld
             foreach(var st in word){
                 var rt = st[1..];
                 var et = st[0];
-                Console.WriteLine(rt + et +"ay");
+                Console.WriteLine($"{rt}{et}ay");
             }
         }
          public static void latin_pig(string words) 
@@ -26,7 +24,7 @@ public class HelloWorld
             }
         }
 
-    public static void Main(string[] args) 
+    public static void Main(string[] args)
     {   
         pig_latin("The quick brown fox");
         Console.WriteLine("\n");
