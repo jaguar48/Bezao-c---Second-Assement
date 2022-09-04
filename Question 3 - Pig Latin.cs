@@ -1,3 +1,4 @@
+
 using System;
 using System.Collections.Generic;
 public class HelloWorld
@@ -20,7 +21,7 @@ public class HelloWorld
                 char last_char = remove_ay[remove_ay.Length-1];
                 string final_word = st.Remove(st.Length -3 );
                 
-                Console.WriteLine($"{last_char}{final_word}");
+                Console.WriteLine(last_char+final_word);
             }
         }
 
