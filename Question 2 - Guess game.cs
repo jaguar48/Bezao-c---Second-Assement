@@ -5,9 +5,9 @@ public class Program
 	public static void Main()
 	{
 		int user_tries = 0;
-        var user_inputs = new List<int>();
+        	var user_inputs = new List<int>();
 
-		 while (user_tries <= 5)
+	while (user_tries <= 5)
             {
                
                 Console.WriteLine("guess from 1-5 numbers ");
@@ -24,7 +24,8 @@ public class Program
                 user_inputs.Add(enter_number);
                 Random rd = new Random();
                 int rand_num = rd.Next(5);
-               user_tries += 1;
+               	user_tries += 1;
+		
                 if (enter_number < rand_num)
                 {
                     Console.WriteLine($"Mininum");
