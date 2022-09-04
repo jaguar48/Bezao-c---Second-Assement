@@ -26,7 +26,7 @@ public class HelloWorld
             }
         }
 
-    public static void Main(string[] args)
+    public static void Main(string[] args) 
     {   
         pig_latin("The quick brown fox");
         Console.WriteLine("\n");
