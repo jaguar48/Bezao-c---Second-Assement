@@ -16,7 +16,7 @@ public class Program
                 if (user_inputs.Contains(enter_number))
                 {
                      user_tries -= 1;
-                    Console.WriteLine($"that's a one try {user_tries}");
+                    Console.WriteLine($"consecutive numer {user_tries}");
                     continue;
                     
                 }
